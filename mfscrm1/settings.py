@@ -26,6 +26,7 @@ SECRET_KEY = 'django-insecure-@^zzv$hkptf=y3%al4ej1!kh4&q$5u@tvotmfyu=hy9wx5!$g^
 DEBUG = True
 
 STATIC_URL = '/static/'
+STATIC_ROOT = '/static/'
 
 LOGIN_REDIRECT_URL = '/'
 
