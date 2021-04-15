@@ -1,0 +1,396 @@
+/*
+GENERAL
+*/
+a {
+    text-decoration: none;
+    }
+   
+   img {
+   max-width: 100%;
+   
+   }
+   
+   
+   
+    body {
+      font-family: 'Libre Baskerville', serif;
+      font-size: 16px;
+      margin: 10px;
+    }
+   
+   
+    #wrapper {
+      max-width: 940px;
+      margin: 0 auto;
+      padding: 0 5%;
+   
+    }
+   
+   
+   
+    a {
+      color: #000;
+   
+    }
+   
+    h3 {
+        margin: 0 0 1em 0;
+    }
+   
+   
+   /*
+   HEADING
+   */
+   
+   header {
+     float: left;
+     margin: 0 0 20px 0;
+     padding: 2px 0 0 0;
+     width: 100%;
+   
+   }
+   
+   
+   
+   #logo {
+      text-align: center;
+      margin: 0;
+   
+    }
+   
+    h1  {
+    font-family: 'Fjalla One', sans-serif;
+    margin: 10px 0;
+    font-size: 46px;
+    font-weight: normal;
+    line-height: 0.5;
+    text-align: center;
+    color: 	#000;
+   
+    }
+   
+    h2  {
+   
+   
+    font-size: 1.00em;
+    font-weight: normal;
+    text-align: center;
+    margin: -5px 0 0;
+    }
+   
+   
+   h3  {
+   
+   
+       font-size: 1.1em;
+       font-weight: 700;
+       text-align: center;
+       margin: 15px 0 0;
+   }
+   
+  
+   
+   
+/*
+NAVIGATION
+*/
+/* Add a black background color to the top navigation */
+.navbar {
+  background-color: #a28e73;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: left;
+  color: black;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: #e6ccb2;
+  color: black;
+}
+
+   
+   
+   /*
+   FOOTER
+   */
+    footer {
+    font-size: 0.75em;
+    text-align: center;
+    clear: both;
+    padding-top: 50px;
+    color: white;
+    }
+   
+
+
+   /*
+   PAGE:
+   */
+   .mydiv {background: white; width:250px; height: 250px;}
+   
+   .myimage {
+       float:left;
+       width:300px;
+       height:350px;
+       margin:20px;
+       border-radius: 0px;
+       border-style: solid;
+       border-color: #ab8c6d;
+       border-width: 5px;
+   }
+   
+
+
+   /* IMAGES */
+  /* Three image containers (use 25% for four, and 50% for two, etc) */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+    
+   
+   
+    /*
+   PAGE: ABOUT
+   */
+   .myimage {
+       display: block;
+       max-width: 400px;
+       margin: 20px;
+       border-radius: 0px;
+       border-style: solid;
+       border-color: #ab8c6d;
+       border-width: 5px;
+   }
+
+
+   .button {
+    background-color: #5f4c3e;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    justify-content: center;
+  }
+   
+   /*
+   COLORS
+   */
+   
+   
+    /* header */
+     header {
+      background: #000;
+      border-color: #000;
+    }
+   
+    /* logo text*/
+   
+    h1,h2  {
+       color: #000;
+   }
+   
+   /* nav background on mobile devices*/
+   nav {
+      background: #e5d3bb;
+   }
+   
+   nav a, nav a:visited {
+       color: #5f4c3e;
+   }
+   
+   /* selected nav link color*/
+   nav a.selected, nav a:hover {
+     color: #000;
+   }
+   /* site body*/
+   body {
+       background-color: white;
+       color: #000;
+   }
+
+
+  /*SHOP*/
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+  }
+  
+  /* Center website */
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  
+  
+  /*contact us*/
+  /* Style inputs with type="text", select elements and textareas */
+  input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #5f4c3e;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #5f4c3e;
+  }
+
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+
+
+  /* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
