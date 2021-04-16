@@ -29,7 +29,7 @@ DEBUG = False
 LOGIN_REDIRECT_URL = '/'
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_FILE_PATH = str(BASE_DIR.joinpath('sent_emails'))
+
 
 DEFAULT_FROM_EMAIL = "webmastery@gmail.com"
 EMAIL_HOST = 'smtp.gmail.com'
